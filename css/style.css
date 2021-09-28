@@ -5,42 +5,92 @@
 /**************************************************/
 
 #hero {
-  background-color: azure;
+  background-color: red;
 }
 
 #voresis {
-  background-color: lightyellow;
+  background-color: red;
 }
 
 #tilbud {
-  background-color: burlywood;
+  background-color: red;
 }
 
 #omos {
-  background-color: lavender;
+  background-color: red;
+}
+
+#hero-2 {
+  display: grid;
+  place-items: center;
+}
+
+#hero-2 h5,
+#hero-2 img {
+  grid-row-start: 1;
+  grid-column-start: 1;
+}
+
+.herotext {
+  bottom: 0;
 }
 
 /**************************************************/
 /* Small devices (landscape phones, 576px and up) */
 /**************************************************/
-@media (min-width: 576px) {}
+@media (min-width: 576px) {
+  body {
+    background-color: yellow;
+  }
+
+  #voresis {
+    background-color: yellow;
+  }
+
+  #hero {
+    background-color: yellow;
+  }
+  #tilbud {
+    background-color: yellow;
+  }
+
+  #omos {
+    background-color: yellow;
+  }
+}
 
 /* END "sm-" 576px and up */
-
 
 /**************************************************/
 /* // Medium devices (tablets, 768px and up) */
 /**************************************************/
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+  body {
+    background-color: yellow;
+  }
+
+  #voresis {
+    background-color: yellow;
+  }
+
+  #hero {
+    background-color: yellow;
+  }
+  #tilbud {
+    background-color: yellow;
+  }
+
+  #omos {
+    background-color: yellow;
+  }
+}
 
 /* END "md-" 768px and up */
-
 
 /**************************************************/
 /* // Large devices (desktops, 992px and up) */
 /**************************************************/
 @media (min-width: 992px) {
-
   /* END "lg-" 992px and up */
 }
 
@@ -48,14 +98,30 @@
 /* // Extra large devices (large desktops, 1200px and up) */
 /**************************************************/
 @media (min-width: 1200px) {
-
   /* END "xl-" 1200px and up */
+  body {
+    background-color: blue;
+  }
+
+  #voresis {
+    background-color: blue;
+  }
+
+  #hero {
+    background-color: blue;
+  }
+  #tilbud {
+    background-color: blue;
+  }
+
+  #omos {
+    background-color: blue;
+  }
 }
 
 /**************************************************/
 /* // Extra Extra large (XXL) devices (XXL screens, 1400px and up) */
 /**************************************************/
 @media (min-width: 1400px) {
-
   /* END "xxl-" 1400px and up */
 }
