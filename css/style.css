@@ -32,7 +32,7 @@
 }
 
 .herotext {
-  bottom: 0;
+  bottom: 50%;
 }
 
 /**************************************************/
@@ -40,22 +40,22 @@
 /**************************************************/
 @media (min-width: 576px) {
   body {
-    background-color: yellow;
+    background-color: red;
   }
 
   #voresis {
-    background-color: yellow;
+    background-color: red;
   }
 
   #hero {
-    background-color: yellow;
+    background-color: red;
   }
   #tilbud {
-    background-color: yellow;
+    background-color: red;
   }
 
   #omos {
-    background-color: yellow;
+    background-color: red;
   }
 }
 
@@ -92,6 +92,26 @@
 /**************************************************/
 @media (min-width: 992px) {
   /* END "lg-" 992px and up */
+
+  body {
+    background-color: brown;
+  }
+
+  #voresis {
+    background-color: brown;
+  }
+
+  #hero {
+    background-color: brown;
+  }
+  #tilbud {
+    background-color: brown;
+  }
+
+  #omos {
+    background-color: brown;
+  }brown
+
 }
 
 /**************************************************/
